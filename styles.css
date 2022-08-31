@@ -2,6 +2,49 @@
     margin: 0;
 }
 
+/* Typography */
+
+h1 {
+    font: 700 1.9rem/1.2 'Playfair Display', Times, 'Times New Roman', serif; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    font: 700 1.3rem/1.2 'Playfair Display', Times, 'Times New Roman', serif; 
+    color: rgb(65, 61, 75);
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+h3 {
+    font: 700 1rem/1.2 'Playfair Display', Times, 'Times New Roman', serif; 
+    color: rgba(47, 45, 53, 0.35);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    font: 700 0.9rem/1.4 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+p {
+    font: 300 0.9rem/1.8 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 3rem;
+}
+
+
+/* Sections */
+
 nav {
     color: red;
 }
