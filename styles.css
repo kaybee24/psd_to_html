@@ -13,7 +13,7 @@
   }
 
 #main_container {
-    width: 1200px;
+    width: 1600px;
     margin: auto;
 }
 
@@ -96,15 +96,20 @@ nav {
     color: yellowgreen;
 }
 
-#contact_client-section {
-    color: lightsalmon;
-}
 
 footer {
     color: blueviolet;
 }
 
 /* contacts */
+#contact_client-section {
+    margin: 0  10rem; 
+}
+
+
+#contact_client-section h2 {
+    text-align: left;
+}
 
 .form {
     width: 460px;
