@@ -19,6 +19,7 @@
     background-color: transparent;
   }
 
+
 /* Typography */
 
 h1 {
@@ -145,12 +146,17 @@ nav {
     font: 100 0.9rem/1.4 'Roboto', Helvetica, sans-serif;
 }
 
-#contact_client-section {
-    color: lightsalmon;
-}
 
 
 /* contacts */
+#contact_client-section {
+    margin: 0  10rem; 
+}
+
+
+#contact_client-section h2 {
+    text-align: left;
+}
 
 .form {
     width: 460px;
