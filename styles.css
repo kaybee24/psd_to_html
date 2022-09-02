@@ -84,7 +84,8 @@ nav {
 }
 
 #our_story-section {
-    color: green;
+    padding: 50px 300px;
+
 }
 
 #watch-section {
@@ -151,6 +152,7 @@ nav {
 /* contacts */
 #contact_client-section {
     margin: 0  10rem; 
+    padding: 100px 0; 
 }
 
 
