@@ -64,24 +64,50 @@ p {
 /* Sections */
 
 /* header */
+/* Header */
+header {
+    background: url("images/design-assets/bgk-header.png") no-repeat top center fixed;
+    padding-bottom: 5rem;
+}
 
-.head  {
-    background-image: url("images/design-assets/bgk-header.png");
-    width: 1600px;
-    height: 670px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 3rem;
+}
 
 nav {
-    color: red;
+    height: 70px;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+nav a {
+    color: rgb(255, 255, 255);
+    font: 700 0.75rem/1.4 'Roboto', Helvetica, sans-serif;
+    text-decoration: none;
+text-transform: uppercase;
+    line-height: 70px;
+    padding: 5px 15px;
+    letter-spacing: 0.12rem;
 }
 
-#hero-section {
-    color: blue;
+nav a:hover {
+    color: rgb(0, 224, 208);
 }
+/* Intro Text */
+
+.intro {
+    margin: 0 auto;
+    padding-top: 4rem;
+    text-align: center;
+    width: 60%;
+}
+
+
 
 #our_story-section {
     color: green;
@@ -151,6 +177,7 @@ nav {
 /* contacts */
 #contact_client-section {
     margin: 0  10rem; 
+    padding: 100px 0;
 }
 
 
