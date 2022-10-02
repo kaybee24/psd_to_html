@@ -1,0 +1,67 @@
+/* Header */
+header {
+    background: url("img/bgk-header.png") no-repeat top center;
+    width: 1600px;
+    height: 670px;
+    /* check when starting responsive version
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    */
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    margin-top: 1rem;
+}
+
+a.text-gradient {
+    font: 100 1.8rem/1.4 'Roboto', Helvetica, sans-serif;
+    color: rgb(0, 224, 208);
+    text-decoration: none;
+}
+
+a.text-gradient::before {
+    content: url('img/logo.png');
+    width: 44px;
+    height: 50px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+nav a {
+    color: rgb(255, 255, 255);
+    font: 700 0.75rem/1.4 'Roboto', Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 70px;
+    padding: 5px 15px;
+    letter-spacing: 0.12rem;
+}
+
+nav a:hover {
+    color: rgb(0, 224, 208);
+}
+
+/* Intro Text */
+
+.intro {
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 150px;
+}

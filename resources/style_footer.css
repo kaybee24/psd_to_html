@@ -1,0 +1,48 @@
+footer {
+    background: url("img/bgk-footer.png") no-repeat center center;
+    display: flex;
+    width: 1600px;
+    height: 397px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.footer-contact {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.footer-contact li {
+    list-style: none;
+    font: 300 0.9rem/1.8 'Roboto', Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-indent: -22px;
+    margin-left: 10px
+}
+
+.footer-contact li::before {
+    margin-right: 8px;
+    height: 10px;
+    width: 15px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.footer-contact li.icon-address::before {
+    content: url("img/big104.png");
+}
+
+.footer-contact li.icon-phone::before {
+    content: url("img/phone351.png");
+}
+
+input[type=text].footer-input {
+    width: 200px;
+    color: hsla(0, 0%, 100%, 1);
+    border: 1px solid hsla(0, 0%, 100%, 1);
+    background-color: hsla(0, 0%, 100%, 0);
+}
+  
+::placeholder {
+    color: hsla(0, 0%, 100%, 1);
+}

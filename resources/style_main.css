@@ -1,0 +1,65 @@
+/* Section Video */ 
+
+#section_video {
+    background: url("img/bgk-middle.png") no-repeat center center;
+    width: 1600px;
+    height: 550px;
+}
+
+/* find out when to use background images, when pictures? */
+
+/* Section Expertise */
+
+#section_expertise .box-3 {
+    max-width: 280px;
+    max-height: 300px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.border-bottom-right {
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
+}
+
+.border-right {
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+    box-shadow: 1px 0px 0px 0px rgba(0,0,0,0.1);
+}
+
+.border-bottom {
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+}
+
+/* Section Team */ 
+
+#section_team {
+    background: url("img/bgk-middle.png") no-repeat center center;
+    width: 1600px;
+    height: 550px;
+}
+
+#section_team figure {
+    border: 1px solid rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+}
+
+#section_team figure img {
+    width: 100%;
+}
+
+/* Section Contact clients */ 
+
+#section_contact-clients {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#section_contact-clients img {
+    max-width: 170px;
+}
