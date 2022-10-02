@@ -1,0 +1,182 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 18px;
+    width: 1600px;
+}
+
+/* Flexbox */
+
+.container_flex {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* needs width */
+    background-color: hsla(180, 100%, 25%, 0.1);
+    /* align-items: center; */
+}
+
+.box-1 {
+    flex: 0 100%;
+}
+
+.box-2 {
+    flex: 0 50%;
+}
+
+.box-3 {
+    flex: 0 33.3%;
+}
+
+.box-4 {
+    flex: 0 25%;
+}
+
+.box-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-images-clients {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+/* Font styles */
+
+h1 {
+    font: 700 1.9rem/1.2 'Playfair Display', Times, 'Times New Roman', serif; 
+    color: hsla(0, 0%, 100%, 1);
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+h1 span {
+    position: relative;
+}
+
+h1::after {
+    position: relative;
+    display: block;
+    content: '';
+    width: 50px;
+    height: 1.2rem;
+    border-bottom: 1px solid hsla(176, 100%, 44%, 1);
+    left: 311px; /* parent max-width = 672px - 50px = 622px / 2 = 311px */
+    /* text-align: center;  check if you need this at the end */
+}
+
+h2 {
+    font: 700 1.3rem/1.2 'Playfair Display', Times, 'Times New Roman', serif; 
+    color: hsla(257, 10%, 26%, 1);
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+h3 {
+    font: 700 1rem/1.2 'Playfair Display', Times, 'Times New Roman', serif; 
+    color: hsla(255, 8%, 19%, 0.35);
+    text-align: center;
+}
+
+h3::after {
+    position: relative;
+    display: block;
+    content: '';
+    width: 50px;
+    text-align: center;
+    height: 1.2rem;
+    border-bottom: 1px solid hsla(257, 10%, 26%, 0.35);
+    left: 455px; /* parent: width: 960px - 50px = 910px / 2 */
+}
+
+#section_team h3::after {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 1);
+}
+
+h4 {
+    font: 700 0.9rem/1.4 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+    text-transform: uppercase;
+}
+
+p,
+th, 
+tr {
+    font: 300 0.9rem/1.8 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+a.btn,
+[type=submit] {
+    display: inline-block;
+    font: 400 0.9rem/1.2 'Hammersmith One', Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid hsla(176, 100%, 44%, 1);
+    border-radius: 2px;
+    padding: 0.7rem 1rem 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsla(176, 100%, 44%, 1);
+    background-color: hsla(0, 0%, 100%, 0);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+a.btn:hover,
+input[type=submit]:hover {
+    border-radius: 2px;
+    padding: 0.7rem 1rem 0.5rem;
+    color: hsla(257, 10%, 26%, 1);
+    background-color: hsla(0, 0%, 100%, 0.8);
+    transition: all 0.6s ease-in;
+}
+
+.text-white {
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.text-dark {
+    color: hsla(257, 10%, 26%, 0.75);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+figcaption {
+    font: 700 0.9rem/1.4 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+/* Form – note: type=select wie a.btn */
+
+input[type=text],
+textarea {
+    font: 400 0.9rem/1.4 'Roboto', Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    width: 420px;
+    padding: 12px 0 12px 20px;
+    margin: 10px 0;
+    border: 1px solid hsla(0, 0%, 0%, 0.2);
+}

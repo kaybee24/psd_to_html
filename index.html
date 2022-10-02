@@ -5,206 +5,274 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tajam Agency</title>
+    <title>Tajam – kat</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="resources/style.css" />
+    <link rel="stylesheet" href="resources/style_header.css" />
+    <link rel="stylesheet" href="resources/style_main.css" />
+    <link rel="stylesheet" href="resources/style_footer.css" />
+    <link rel="stylesheet" href="resources/flexbox_01-elements.css" />
 </head>
 
 <body>
 
- <div id="main_container">
+    <!-- Header -->
 
-        <header class="head">
-            <nav>navigation</nav>
-            <section id="hero-section">hero section</section>
-        </header>
-        <main>
-            <section id="our_story-section">
-                <div class="container">
-                    <div class="item_2">
-                        <img src="images/design-assets/png/logo-big.png">
-                    </div>
-                    <div class="item_2">
-                        <h2 class="text-left">Our Story</h2>
-                        <p class="text-dark text-left">This is Photoshop's version of Lorem Ipsum. Proin gravida
-                            nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
-                            elit consequat
-                            ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.
-                            <br /><br />
-                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed
-                        </p>
-                        <input type="button" value="Learn More">
-                    </div>
-                    
+    <header>
+        <div class="container_flex">
+            <div class="box-1 navbar">
+                <div class="logo">
+                    <a class="text-gradient" href="#">tajam</a>
                 </div>
-            </section>
-            <section id="watch-section">watch section</section>
-
-            <section id="expertise-section">
-                <h2>Expertise Section</h2>
-                <h3>Lorem ipsum dolor sit amet proin gravida nibh velit</h3>
-                <div class="container flex-center">
-                    <div class="item_3 item-expertise">
-                        <img src="images/design-assets/png/screen.png">
-                        <h4 class="text-dark">Web Design & Development</h4>
-                        <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="item_3 item-expertise">
-                        <img src="images/design-assets/png/pen.png">
-                        <h4 class="text-dark">Branding Identity</h4>
-                        <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="item_3 item-expertise">
-                        <img src="images/design-assets/png/mobile.png">
-                        <h4 class="text-dark">Mobile App</h4>
-                        <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor
-                            aliquet Aenean.</p>
-                    </div>
-                    <div class="item_3 item-expertise">
-                        <img src="images/design-assets/png/graph.png">
-                        <h4 class="text-dark">Search Engine Optimization</h4>
-                        <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="item_3 item-expertise">
-                        <img src="images/design-assets/png/gameboy.png">
-                        <h4 class="text-dark">Game Development</h4>
-                        <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor aliquet Aenean.</p>
-                    </div>
-                    <div class="item_3 item-expertise">
-                        <img src="images/design-assets/png/heart.png">
-                        <h4 class="text-dark">Made with love</h4>
-                        <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                            auctor aliquet Aenean.</p>
-                    </div>
+                <div class="navigation">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Expertise</a>
+                        <a href="#">Teams</a>
+                        <a href="#">Works</a>
+                        <a href="#">People Say</a>
+                        <a href="#">Contact</a>
+                    </nav>
                 </div>
-            </section>
+            </div>
+            <div class="box-1 intro border-left">
+                <h1>We Are Awesome Creative Agency</h1>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                    aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                    sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                    ipsum velit.</p>
+                <a class="btn" href="#">Learn more</a>
+            </div>
+        </div>
+    </header>
 
-            <section id="team-section">
-                <h2 class="text-white">Meet our amazing Team</h2>
-                <h3 class="text-white">Lorem ipsum dolor sit</h3>
-                <div class="container">
-                    <div class="item_4">
-                        <figure>
-                            <img src="images/design-assets/team-01.jpg">
-                            <figcaption>JENG KOL
-                                <br /><span class="team-title">Designer</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="item_4">
-                        <figure>
-                            <img src="images/design-assets/team-03.jpg">
-                            <figcaption>PET ROMAK
-                                <br /><span class="team-title">Marketing</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="item_4">
-                        <figure>
-                            <img src="images/design-assets/team-02.jpg">
-                            <figcaption>DIK ADALIN
-                                <br /><span class="team-title">Engineering</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="item_4">
-                        <figure>
-                            <img src="images/design-assets/team-04.jpg">
-                            <figcaption>JENG KOL
-                                <br /><span class="team-title">Designer</span>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </section> 
- 
-            <section id="contact_client-section" class="container">
-                <div id="contact" class="item_2">
-                    <h2>GIVE US a good news</h2>
-                    <form>
-                        <input type="text" class="form" name="name" placeholder="Name"><br><br>
-                        <input type="text" class="form" name="email" placeholder="Email"><br><br>
-                        <input type="text" class="form" name="subject" placeholder="Subject"><br><br>
-                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
-                        <br><br>
-                        <input type="button" value="Submit">
+    <main>
+
+        <!-- Section Our Story -->
+
+        <section id="section_our-story">
+            <div class="container_flex">
+                <div class="box-2 box-center">
+                    <img src="resources/img/logo-big.png" alt="tajam company logo">
+                </div>
+                <div class="box-2 center">
+                    <h2 class="text-left">Our Story</h2>
+                    <p class="text-left text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                        ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.
+                        <br /><br />
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
+                        vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
+                        conubia nostra, per inceptos himenaeos.
+                    </p>
+                    <a class="btn" href="#">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Video -->
+
+        <section id="section_video">
+            <div class="container_flex">
+                <div class="box-1 box-center">
+                    <figure class="text-center">
+                        <img src="resources/img/play.png" alt="play video about us">
+                        <figcaption class="text-white">WATCH OUR STORY</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Expertise -->
+
+        <section id="section_expertise">
+            <div class="container_flex">
+                <div class="box-1">
+                    <h2>Expertise</h2>
+                </div>
+                <div class="box-3 text-center border-bottom-right">
+                    <img src="resources/img/screen.png" alt="image showing desktop icon">
+                    <h4 class="text-dark">Web Design & Development</h4>
+                    <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor
+                        aliquet Aenean.</p>
+                </div>
+                <div class="box-3 text-center border-bottom-right">
+                    <img src="resources/img/pen.png" alt="image showing pen icon">
+                    <h4 class="text-dark">Branding Identity</h4>
+                    <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor
+                        aliquet Aenean.</p>
+                </div>
+                <div class="box-3 text-center border-bottom">
+                    <img src="resources/img/mobile.png" alt="image showing mobile device icon">
+                    <h4 class="text-dark">Mobile App</h4>
+                    <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor
+                        aliquet Aenean.</p>
+                </div>
+                <div class="box-3 text-center border-right">
+                    <img src="resources/img/graph.png" alt="image showing graph icon">
+                    <h4 class="text-dark">Search Engine Optimization</h4>
+                    <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor
+                        aliquet Aenean.</p>
+                </div>
+                <div class="box-3 text-center border-right">
+                    <img src="resources/img/gameboy.png" alt="image showing game icon">
+                    <h4 class="text-dark">Game Development</h4>
+                    <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor aliquet Aenean.</p>
+                </div>
+                <div class="box-3 text-center">
+                    <img src="resources/img/heart.png" alt="image showing heart icon">
+                    <h4 class="text-dark">Made with love</h4>
+                    <p class="text-dark">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor aliquet Aenean.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Team -->
+
+        <section id="section_team">
+            <div class="container_flex">
+                <div class="box-1">
+                    <h2 class="text-white">Meet our amazing team</h2>
+                    <h3 class="text-white">Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+                </div>
+                <div class="box-4">
+                    <figure>
+                        <img src="resources/img/team-04.jpg" alt="image showing designer">
+                        <figcaption class="text-white">Semf Ucuk
+                            <br /><span class="text-thin">CEO & Founder</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="box-4">
+                    <figure>
+                        <img src="resources/img/team-03.jpg" alt="image showing designer">
+                        <figcaption class="text-white">Dik Adalin
+                            <br /><span class="text-thin">Engineering</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="box-4">
+                    <figure>
+                        <img src="resources/img/team-02.jpg" alt="image showing designer">
+                        <figcaption class="text-white">Jeng Kol
+                            <br /><span class="text-thin">Designer</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="box-4">
+                    <figure>
+                        <img src="resources/img/team-01.jpg" alt="image showing designer">
+                        <figcaption class="text-white">Pet Romak
+                            <br /><span class="text-thin">Marketing</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="box-1 text-center">
+                    <p>Become part of our dream team, let's join us !</p>
+                    <a class="btn" href="#">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+
+        <section id="section_contact-clients">
+            <div class="container_flex">
+                <div class="box-2">
+                    <h2 class="text-left">Our Story</h2>
+                    <form method="post">
+                        <input type="text" name="name" placeholder="Name">
+                        <br />
+                        <input type="text" name="email" placeholder="Email">
+                        <br />
+                        <input type="text" name="subject" placeholder="Subject">
+                        <br />
+                        <textarea rows="10" cols="35" name="comment" placeholder="Your message"></textarea>
+                        <br />
+                        <input type="submit" value="Submit" class="btn">
                     </form>
-
                 </div>
-                <div class="item_2">
-                    <h2>Our Happy Clients</h2>
-                    <div class="clients">
-                        <div class="logorow">
-                            <img class="logo" src="images/design-assets/png/Zara_Logo.png">
-                            <img class="logo" src="images/design-assets/png/1280px-Barneys_New_York_Logo.png">
-                            <img class="logo" src="images/design-assets/png/Calvin_klein_logo.png">
-                            <img class="logo" src="images/design-assets/png/Converse_logo.png">
-                            <img class="logo" src="images/design-assets/png/1280px-Levi's_logo.png">
-                        </div>
-                        <div class="logorow">
-                            <img class="logo" src="images/design-assets/png/Logo_of_Mango_(new).png">
-                            <img class="logo" src="images/design-assets/png/1280px-Gucci_Logo.png">
-                            <img class="logo" src="images/design-assets/png/1280px-Logo_NIKE.png">
-                            <img class="logo" src="images/design-assets/png/Puma_Logo.png">
-                            <img class="logo" src="images/design-assets/png/Billabong.png">
-                        </div>
-
-
+                <div class="box-2">
+                    <h2 class="text-left">Our Clients</h2>
+                    <div class="box-images-clients">
+                        <img class="images-clients" src="resources/img/Zara_Logo.png" alt="Logo Zara">
+                        <img class="images-clients" src="resources/img/1280px-Barneys_New_York_Logo.png"
+                            alt="Logo Barneys">
+                        <img class="images-clients" src="resources/img/Calvin_klein_logo.png" alt="Logo Calvin Klein">
+                        <img class="images-clients" src="resources/img/Converse_logo.png" alt="Logo Converse">
+                        <img class="images-clients" src="resources/img/1280px-Levi's_logo.png" alt="Logo Levi's">
                     </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div id="main_container">
-                <div class="container">
-                    <div class="item_3">
-                        <div class="main-logo">
-                            <a class="text-gradient" href="#">tajam</a>
-                        </div>
-                    </div>
-                    <div class="item_3">
-                        <h4 class="text-left">Our Studio</h4>
-                    </div>
-                    <div class="item_3">
-                        <h4 class="text-left">Stay in Touch</h4>
-                    </div>
-                    <div class="item_3">
-                        <p class="text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                            commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes.
-                        </p>
-                    </div>
-                    <div class="item_3">
-                        <ul class="footer-address">
-                            <li class="icon-address">Ruko cucruk,
-                                Jl. Radio luar dalem jos
-                                <br />No. 12-13, Kalideres – Jakarta Barat
-                                <br />11480 – Indonesia
-                            </li>
-                            <li class="icon-phone">(+62) 21-2224
-                                3333</li>
-                        </ul>
-                    </div>
-                    <div class="item_3">
-                        <div class="social-icons">
-                            <a href=""><img src="images/design-assets/png/twitter.png"></a>
-                            <a href=""><img src="images/design-assets/png/facebook.png"></a>
-                            <a href=""><img src="images/design-assets/png/dribbble.png"></a>
-                            <a href=""><img src="images/design-assets/png/instagram.png"></a>
-                            <a href=""><img src="images/design-assets/png/gplus.png"></a>
-                            <a href=""><img src="images/design-assets/png/youtube.png"></a>
-                        </div>
+                    <div class="box-images-clients">
+                        <img class="images-clients" src="resources/img/Logo_of_Mango_(new).png" alt="Logo Mango">
+                        <img class="images-clients" src="resources/img/1280px-Gucci_Logo.png" alt="Logo Gucci">
+                        <img class="images-clients" src="resources/img/1280px-Logo_NIKE.png" alt="Logo Nike">
+                        <img class="images-clients" src="resources/img/Puma_Logo.png" alt="Logo Puma">
+                        <img class="images-clients" src="resources/img/Billabong.png" alt="Logo Billabong">
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container_flex">
+            <div class="box-3">
+                <div class="logo">
+                    <a class="text-gradient" href="#">tajam</a>
+                </div>
+            </div>
+            <div class="box-3">
+                <h4 class="text-left">Our Studio</h4>
+            </div>
+            <div class="box-3">
+                <h4 class="text-left">Stay in touch</h4>
+            </div>
+            <div class="box-3">
+                <p class="text-left">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit.
+                    Duis sed odio sit
+                    amet auctror a ornare odio non mauris vitae erat in elit
+                </p>
+            </div>
+            <div class="box-3">
+                <ul class="footer-contact">
+                    <li class="icon-address">Ruko cucruk, Jl. Radio luar dalem jos
+                        <br />No.12 - 13, Kalideres - Jakarta Barat
+                        <br />11480 - Indonesia
+                    </li>
+                    <li class="icon-phone">(+62) 21-2224 3333</li>
+                </ul>
+            </div>
+            <div class="box-3">
+
+                <form method="post">
+                    <input type="text" name="newsletter" placeholder="Newsletter" class="footer-input text-white">
+                </form>
+
+                <div class="social-icons">
+                    <a href=""><img src="resources/img/facebook.png" alt="facebook icon"></a>
+                    <a href=""><img src="resources/img/twitter.png" alt="twitter icon"></a>
+                    <a href=""><img src="resources/img/dribbble.png" alt="dribbble icon"></a>
+                    <a href=""><img src="resources/img/instagram.png" alt="instagram icon"></a>
+                    <a href=""><img src="resources/img/gplus.png" alt="google plus icon"></a>
+                    <a href=""><img src="resources/img/youtube.png" alt="youtube icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
